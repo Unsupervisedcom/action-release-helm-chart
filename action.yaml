@@ -9,6 +9,10 @@ inputs:
     description: 'If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always()'
     required: false
     default: false
+  toggle-admin-branch:
+    description: 'Branch change branch protection rules for'
+    required: false
+    default: '${{ github.ref }}'
 runs:
   using: "composite"
   steps:
@@ -20,6 +24,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         include-admins: false
+        branch: ${{ inputs.toggle-admin-branch }}
     - id: semantic-release
       uses: cycjimmy/semantic-release-action@v2
       with:
@@ -41,3 +46,4 @@ runs:
       with:
         token: ${{ inputs.token }}
         include-admins: true
+        branch: ${{ inputs.toggle-admin-branch }}
