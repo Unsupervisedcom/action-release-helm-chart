@@ -28,7 +28,7 @@ runs:
         include-admins: false
         branch: alpha
     - id: semantic-release
-      uses: cycjimmy/semantic-release-action@v2
+      uses: cycjimmy/semantic-release-action@v3.2.0
       with:
         extends: '@unsupervised/release-config-helm'
       env:
