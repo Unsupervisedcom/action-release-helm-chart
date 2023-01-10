@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Unsupervisedcom/action-release-helm-chart/compare/v1.0.2...v1.0.3) (2023-01-10)
+
+
+### Bug Fixes
+
+* Try --allow-unrelated-histories ([#5](https://github.com/Unsupervisedcom/action-release-helm-chart/issues/5)) ([ff53229](https://github.com/Unsupervisedcom/action-release-helm-chart/commit/ff5322903720ef7208d5c15d8f968ebf8c940330))
+
 ## [1.0.2](https://github.com/Unsupervisedcom/action-release-helm-chart/compare/v1.0.1...v1.0.2) (2022-11-22)
 
 
