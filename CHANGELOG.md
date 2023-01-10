@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Unsupervisedcom/action-release-helm-chart/compare/v1.0.3...v1.1.0) (2023-01-10)
+
+
+### Features
+
+* update semver version for action ([#6](https://github.com/Unsupervisedcom/action-release-helm-chart/issues/6)) ([2d599d5](https://github.com/Unsupervisedcom/action-release-helm-chart/commit/2d599d5ff761d2beb455cc432f4e24d46dc7c5a1))
+
 ## [1.0.3](https://github.com/Unsupervisedcom/action-release-helm-chart/compare/v1.0.2...v1.0.3) (2023-01-10)
 
 
